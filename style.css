@@ -1,0 +1,18 @@
+/* Custom smooth transitions */
+.recipe-card {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom scrollbar for ingredients */
+ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+ul::-webkit-scrollbar-track {
+    background: #fff5f5;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background: #fed7aa;
+    border-radius: 4px;
+}
